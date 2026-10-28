@@ -1,0 +1,54 @@
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and local configs
+.env
+.env.*
+*.env
+!.env.example
+
+# Streamlit secrets and local configurations
+.streamlit/secrets.toml
+.streamlit/secret*.toml
+
+# Caches and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+*.cache
+.mpl_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Generated ML artifacts & models
+models/*.joblib
+models/*.pkl
+models/*.json
+*.joblib
+*.pkl
+!models/.gitkeep
+
+# IDEs and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and runtime artifacts
+*.log
